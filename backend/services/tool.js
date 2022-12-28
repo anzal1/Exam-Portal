@@ -4,16 +4,16 @@ const saltRounds = 10;
 
 //create admin
 var createadmin = () => {
-  const password = "rohini24";
+  const password = "<password_here>";
 
   bcrypt
     .hash(password, saltRounds)
     .then((hash) => {
       var tempdata = new UserModel({
-        name: "League of Learners",
+        name: "<Some_Name",
         password: hash,
-        emailid: "leagueoflearners.online@gmail.com",
-        contact: "+65 12345678",
+        emailid: "<Some_Email>",
+        contact: "<Some_Contact>",
         type: "ADMIN",
       });
 
