@@ -1,0 +1,35 @@
+.newtest-steps-holder {
+  width: 80%;
+  margin-left: 10%;
+}
+.new-test-form-holder {
+  padding-top: 30px;
+}
+.basic-test-form-outer {
+  width: 36%;
+  margin-left: 33%;
+  padding: 50px;
+  background: linear-gradient(
+    to right,
+    rgb(183, 233, 247), rgb(219, 243, 250),rgb(245, 252, 255)
+  );
+  border-radius: 5px;
+}
+.list1-question-new-test {
+  padding: 0px;
+}
+.random-question-generation {
+  background: linear-gradient(
+    to right,
+    rgb(183, 233, 247), rgb(219, 243, 250),rgb(245, 252, 255)
+  );
+  width: 100%;
+  border-radius: 5px;
+  padding: 20px;
+}
+.blind {
+  display: none;
+}
+.notblind {
+  display: block;
+}
